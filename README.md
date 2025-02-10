@@ -42,3 +42,6 @@ The SE Z4 considers one pixel in each direction (up, down, left, right) from the
 3. Perform edge detection:
    - Subtract the eroded image from the binary image. If the difference is 255, it indicates an edge.
    - Subtract the binary image from the dilated image. If the difference is 255, it indicates the object's outline.
+
+# Example
+![Example Image](How_it_works.png)
